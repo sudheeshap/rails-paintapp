@@ -1,0 +1,57 @@
+
+body {
+    background-color: #333333;
+    background-image:url('bg1.jpg');
+  }
+  #realCanvas, #tempCanvas {
+    position: absolute;
+    left:280px;
+    top:40px;
+    border: 5px double gray;
+    cursor: crosshair;
+  }
+  #toolset {
+   width: 80px; 
+   position: absolute;
+   left:1000px;
+   top:50px; 
+   background:#35d128; 
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   }
+   #colorset{
+     background:#aaaaaa; 
+     position: absolute;
+     left:280px;
+     top:520px; 
+     border:1px solid #888888;
+   }
+   #files{
+     position: absolute;
+     color:#f4ff5f;
+     background:#222222; 
+     left:10px;
+     top:20px;
+     height:570px ;
+     width: 250px;
+     overflow:auto; 
+   }
+   #tools{
+     background:#358128; 
+     color:#f3f3f3;
+     width:80px;
+     height:25px;
+     border:1px solid #33842a;
+     box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+    }
+    #tools:hover{
+      color:#edebda;
+      -webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+      -moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+      box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+    }
+    #tools:active{
+      background:#014400; 
+      width:75px
+    }

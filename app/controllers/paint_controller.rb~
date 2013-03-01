@@ -1,0 +1,6 @@
+class PaintController < ApplicationController
+  def index
+    @painting_names = Paint.select(:fname)
+    @painting_data = Paint.all
+  end
+end

@@ -1,6 +1,6 @@
 Paintapp::Application.routes.draw do
   get "paint/index"
-  match "paint/add" => "paint#add", :via => :post
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
